@@ -10,7 +10,6 @@ using TypeSpec.Versioning;
 @service({title: "AI Agent", description: "AI Agent service"})
 @server("http://localhost:8080", "endpoint for ai agent service")
 @versioned(Versions)
-
 namespace AI;
 
 enum Versions {
